@@ -4,8 +4,7 @@
 1. [Git官方文档](https://git-scm.com/book/zh/v2)（推荐Pro Git中文版）
 2. [廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 3. [GitHub官方指南](https://docs.github.com/zh)
-4. 《Pro Git》电子书（可免费在线阅读）
-5. 《Git权威指南》人民邮电出版社
+
 
 ---
 
@@ -74,17 +73,6 @@ git push
   2. 使用`ssh -T git@github.com`测试连接
   3. 重新生成密钥并更新平台配置
 
-### 问题2：冲突解决
-- **场景**：多人协作时出现合并冲突
-- **解决流程**：
-  ```bash
-  git fetch
-  git rebase origin/main
-  # 手动解决冲突文件
-  git add resolved_file
-  git rebase --continue
-  git push -f
-  ```
 
 ### 问题3：误提交大文件
 - **处理方案**：
@@ -107,15 +95,3 @@ git push
 2. 配套学习Markdown语法
 3. 结合IDE（VSCode/IDEA）的Git工具使用
 
-### 推荐书籍
-1. 《Pro Git》（必读经典）
-2. 《Git版本控制管理》
-3. 《Git团队协作》
-
----
-
-## 五、成果展示
-- [GitHub示例仓库](https://github.com/example/learning-git)
-- [Gitee镜像仓库](https://gitee.com/example/learning-git)
-
-> 注：本笔记使用Markdown编写，已推送至[GitHub学习笔记仓库](https://github.com/yourname/git-learning-notes)，遵循MIT开源协议。持续更新中，欢迎提交Issue交流讨论！# -
